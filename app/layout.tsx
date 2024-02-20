@@ -5,6 +5,7 @@ import {ClerkProvider} from '@clerk/nextjs'
 import { Clerk } from '@clerk/nextjs/server'
 import { ModalProvider } from '@/components/modal-provider'
 import { ToasterProvider } from '@/components/toaster-provider'
+import { CrispProvider } from '@/components/crisp-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
-      
+         <CrispProvider/>
         <body className={inter.className}>
           <ModalProvider />
           <ToasterProvider />

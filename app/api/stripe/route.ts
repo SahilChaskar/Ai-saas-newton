@@ -36,12 +36,12 @@ export async function GET() {
       cancel_url: settingsUrl,
       payment_method_types: ["card"],
       mode: "subscription",
-      billing_address_collection: "auto",
+      billing_address_collection: "required",
       customer_email: user.emailAddresses[0].emailAddress,
       line_items: [
         {
           price_data: {
-            currency: "INR",
+            currency: "inr",
             product_data: {
               name: "Newton Pro",
               description: "Unlimited AI Generations"

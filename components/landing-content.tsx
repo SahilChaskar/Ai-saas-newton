@@ -16,14 +16,14 @@ const testimonials = [
     description: "I use this daily for generating new photos!",
   },
   {
-    name: "Krishna",
-    avatar: "K",
+    name: "Radha",
+    avatar: "R",
     title: "CEO",
     description: "This app has changed my life, cannot imagine working without it!",
   },
   {
-    name: "Radha",
-    avatar: "R",
+    name: "Krishna",
+    avatar: "K",
     title: "CFO",
     description: "The best in class, definitely worth the premium subscription!",
   },
